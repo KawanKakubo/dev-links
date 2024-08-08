@@ -1,1 +1,1 @@
-projeto
+Projeto realizado por mim para criação de um site simples e intuitivo contendo todas os meus links importantes.
