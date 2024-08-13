@@ -9,13 +9,13 @@ function toggleMode() {
     }
     */
 
-    html.classList.toggle('light')
+    html.classList.toggle("light")
 
-    const image = document.querySelector("#profile img")
+    const img = document.querySelector("#profile img")
 
-    if (html.classList.contains('light')) {
-        image.setAttribute('src', './assets/avatar-light.png')
+    if (html.classList.contains("light")) {
+        img.setAttribute("src", "./assets/avatar-light.png")
     } else {
-        image.setAttribute('src', './assets/avatar.png')
+        img.setAttribute("src", "./assets/avatar.png")
     }
 }
